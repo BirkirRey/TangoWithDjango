@@ -21,6 +21,8 @@ from django.conf.urls.static import static
 
 from rango import views
 
+app_names='rango'
+
 urlpatterns = [
     path('',views.index, name='index'),
     path('about',views.about, name='about'),
